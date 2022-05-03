@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.part{
+    background-color: #d6e4f0;
+}
+h1 {
+    text-align: center;
+    background-color: #d6e4f0;
+}
+#main {
+  width: 100%;
+  height: 50px;
+  border: 1px solid black; 
+  display: flex;
+  align-items: center; 
+  float: right;
+  justify-content: space-evenly;
+  background-color: #163172;
+  margin-bottom: 10px;
+  
+}
+.home{
+    padding: 10px;
+    display: flex;
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+ }
+ .item{
+    padding: 10px;
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+ }
+ .box{
+ width: 100%;
+ height: 40px;
+  color: rgb(8, 8, 8);
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+  flex-direction: row wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: center;
+ }
+.login{
+    display: flex;
+   
+    float: right;
+    width: 70px;
+    height: 25px;
+    display: flex;
+    align-items: center; 
+    float: right;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+
+
+
+
+}
+.Contactus{
+  
+   
+  display: flex;
+  align-items: center; 
+  float: right;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 400;
+ 
+}
+.register{
+    display: flex;
+    font-size: 15px;
+    float: right;
+    width: 70px;
+    height: 25px;
+    display: flex;
+    align-items: center; 
+    float: right;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.main {
+  background: #f6f6f6;
+        box-shadow: 0 0 50px rgba(65, 64, 64, 0.98);
+        border-radius: 20px;
+        color: rgb(14, 14, 14);
+        width: 30%;
+        height: 30%;
+        margin-left: 35%;
+        margin-top: 7%;
+        padding: 2em;
+        font-weight: bold;
+        
+}
+
+.tab-item {
+    border: 1px solid black;
+    border-collapse: separate;
+    border-spacing: 11px 5px;
+    background-color: #f6f6f6;
+    height: 20px;
+    border-radius: 10px;
+}
+button{
+  text-align: center;
+}
+.table-item {
+    text-align: left;
+    padding-top: 0px;
+    margin-top: 10px;
+    padding-right: 50px;
+    border: 1px solid black;
+    border-collapse: separate;
+    border-spacing: 0 5px;
+    margin-bottom: 5px;
+    background-color: #f6f6f6;
+    height: 200px;
+    border-radius: 10px;
+  }
+
+
+.btonn {
+  width: 100px;
+  height: 40px;
+  background: #163172;
+  border: none;
+  margin-top: 20px;
+  font-size: 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.2s ease;
+  margin-left: 260px;
+}
+.btonn a{
+  text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.btnn{
+    width: 100px;
+    height: 30px;
+    background: #163172;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.2s ease;
+    margin-left: 0px;
+}
+.btnn a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+
+.form{
+    text-align: center;
+}
+ .card {
+        background: #f6f6f6;
+        box-shadow: 0 0 20px rgba(64, 63, 63, 0.98);
+        border-radius: 20px;
+        color: rgb(14, 14, 14);
+        width: 25%;
+        height: 550px;
+        margin-left: 37%;
+       
+        padding: 10px;
+        font-weight: bold;
+    }
+   
+.form-signup{
+    text-align: center;
+}
+.para{
+    background-color: #25518c;
+    color: #f5fbff;
+    padding: 15px;
+    font-size: 14px;
+}
+#name{
+  border-radius: 3px;
+        padding: 5px;
+        border-color: rgba(0, 0, 0, 0.275);
+        
+}
+#mobilenumber{
+  border-radius: 3px;
+        padding: 5px;
+        border-color: rgba(0, 0, 0, 0.275);
+        
+}
+#password{
+  border-radius: 3px;
+        padding: 5px;
+        border-color: rgba(0, 0, 0, 0.275);
+        
+}
+#confirmpassword{
+  border-radius: 3px;
+        padding: 5px;
+        border-color: rgba(0, 0, 0, 0.275);
+        
+}
+
+.foot{
+  background-color: #1e56a0;
+  height: 50px;
+  color: azure;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;  
+  bottom: 0;
+  position: fixed;
+  
+}
+#pp{
+  margin-right: 10px;
+}
+#p{
+  margin-left: 10px;
+}
