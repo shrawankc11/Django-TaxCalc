@@ -49,15 +49,41 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="{% url 'calculator' %}">Calculator</a>
                     </li>
-
-
                 </ul>
-                <button type="button" class="btn btn-primary me-md-3" href="{% url 'login' %}">Log in</button>
-                <button type="button" class="btn btn-success me-md-2" href="{% url 'register' %}">Sign Up</button>
+
+                <ul class="navbar-nav me-md-2">
+                    {% if user.is_authenticated %}
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="{% url 'profile' %}">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="{% url 'logout' %}">Logout</a>
+                        </li>
+                    {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="{% url 'login' %}">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="{% url 'register' %}">Register</a>
+                        </li>
+                    {% endif %}
+                </ul>
 
             </div>
         </div>
     </nav>
+
+    <div class="row">
+        <div class="col-md-8">
+          {% if messages %}
+            {% for message in messages %}
+              <div class="alert alert-{{ message.tags }}">
+                {{ message }}
+              </div>
+            {% endfor %}
+          {% endif %}
+            
+    </div>
     <!-- Box1 class is apply to contain information and picture. -->
    
  
@@ -65,7 +91,7 @@
     
     {% endblock %}
 
-    <footer>
+    <!-- <footer>
         <section class="foot">
             
           <div id="p">
@@ -80,7 +106,7 @@
           
        </section>
   
-      </footer>
+      </footer> -->
      
   
 </body>
