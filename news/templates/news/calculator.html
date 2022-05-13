@@ -54,7 +54,7 @@
                         <a class="nav-link active" aria-current="page" href="{% url 'calculator' %}">Calculator</a>
                     </li>
                 </ul>
-
+S
                 <ul class="navbar-nav me-md-2">
                     {% if user.is_authenticated %}
                         <li class="nav-item">
@@ -183,9 +183,9 @@
 
 
     <div class="d-grid gap-2 d-md-flex justify-content-md-between"
-      style="background-color: rgb(202, 202, 202); justify-content: center;">
-      <button class="btn btn-primary me-md-2" type="reset" id="reset">Reset</button>
-      <button class="btn btn-success" type="button" id="calculate">Calculate</button>
+      style="background-color: rgb(255, 255, 255); justify-content: center;">
+      <button class="btn btn-primary me-md-2" type="reset" id="reset" style=" margin-left: 10px; margin-top: 10px;" >Reset</button>
+      <button class="btn btn-success" type="button" id="calculate" style=" margin-right: 10px; margin-top: 10px;">Calculate</button>
     </div>
 
   </div>
@@ -194,26 +194,15 @@
   </div>
 
   </div>
-
-
-
-
-
-
-
 </form>
 
 
-<div id="note">
+<div id="note" style="margin-top: 15px; font-size:18px ">
   <p style="font-family: 'Times New Roman', Times, serif; text-align: center;">Note: This tool is made for general
     tax calculation only. Information from this tool should not be used for any other purpose.</p>
 
 </div>
-
-
-</form>
-
-
+</form>S
 <footer>
   <div class=" container-fluid align-items-center foot" style="height: 60px;">
 
